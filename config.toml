@@ -1,0 +1,111 @@
+baseURL = "https://traodoi.click/"
+# trao đổi 
+# languageCode = "en-us"
+languageCode = "vi"
+title = "Trao Đổi Hàng Hóa"
+theme = "agnes-hugo-theme"
+
+[params]
+	dateFormat = "Jan 2, 2024" 
+	authorName = "by Trao đổi"
+	google_analytics_id = "GA-"
+	
+[menu]
+	[[menu.main]]
+		Name = "Liên hệ báo giá"
+		URL = "#"
+		weight = 1
+	
+	[[menu.main]]
+		Name = "Giới thiệu Trao Đổi"
+		URL = "#"
+		weight = 2
+	
+	# [[menu.main]]
+	# 	Name = "FAQ's"
+	# 	URL = "#"
+	# 	weight = 3
+	
+	# [[menu.main]]
+	# 	Name = "Support"
+	# 	URL = "#"
+	# 	weight = 4
+		
+[params.social]
+	# TwitterURL = "https://twitter.com/podbharati"
+	GoogleURL = "http://google.com"
+	FacebookURL = "https://facebook.com/"
+		
+[params.content]
+	LeadTitle = "Trao đổi hàng hóa để giải quyết lạm phát giá"
+	LeadDescription = "Trao đổi hàng hóa không dùng tiền của chúng tôi giúp đỡ cho sự phân phối giá trị trong thời kỳ khủng hoảng kinh tế."
+	ButtonCaption = "Đăng ký trong danh sách đợi"
+	ButtonURL = "http://google.com"
+	Title2 = "Xem sản phẩm"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "Tiền"
+	FeatureDescription = "Nhận thanh toán qua các cuộc hẹp mặt trực tiếp thay vì qua thanh toán trực tuyến."
+	FeatureImage = "images/feature-1.png"
+	
+[[params.feature]]
+	FeatureTitle = "Không tiền"
+	FeatureDescription = "Mua hoặc bán đồ vật của bạn mà không dùng tiền."
+	FeatureImage = "images/feature-2.png"
+
+[[params.feature]]
+	FeatureTitle = "Quyên Góp"
+	FeatureDescription = "Ban cho người thân hoặc người quen để họ có thể trả lại cho bạn trong tương lai."
+	FeatureImage = "images/feature-3.png"
+	
+# [[params.feature]]
+# 	FeatureTitle = "Feature 4"
+# 	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
+# 	FeatureImage = "images/feature-4.png"
+	
+################### Pricing Columns (do not exceed 3) ####################
+
+
+[[params.pricing]]
+	PricingTitle = "Tượng Phật 10cm"
+	PricingRate = "10"
+	ButtonCaption = "Xem sản phẩm"
+	FeatureImage = "images/buddha.jpg"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"	
+
+[[params.pricing]]
+	PricingTitle = "Macbook 2013"
+	PricingRate = "1000"
+	ButtonCaption = "Xem sản phẩm"
+	FeatureImage = "images/mac.jpg"	
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"		
+	
+[[params.pricing]]
+	PricingTitle = "Đèn pin 10watts"
+	PricingRate = "2"
+	ButtonCaption = "Xem sản phẩm"
+	FeatureImage = "images/light.jpg"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"
+	# [[params.pricing.Features]]
+	# 	Description = "Lorem ipsum is common text"	
